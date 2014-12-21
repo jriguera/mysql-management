@@ -28,8 +28,8 @@ format component:
 <named object> = <gid>_<platform>_<name>
 ```
 
-Managing all together: DBs and users: mysql-manage.sh
-=====================================================
+Managing all together (DBs and users): mysql-manage.sh
+======================================================
 
 ```
 # ./mysql-manage.sh
@@ -144,7 +144,7 @@ WARNING: This program DROP app users, not revoke privileges!
 ```
 
 
-Managing (especial) Grants: mysql-user_grants.sh
+Managing (especial) grants: mysql-user_grants.sh
 ================================================
 
 Let's imagine you want to provide grants to an admin user for all DBs starting 
