@@ -195,18 +195,18 @@ So when you run it without args, it checks if everything is ok:
 --mysql-user_grants.sh 2013-10-04 17:25:40 ERROR: User 'jriguera@localhost' not exists on the DB server! You have to create it first.
 --mysql-user_grants.sh 2013-10-04 17:25:40: Checking privileges of 'jriguera@localhost' on 'test_plat_hola.*' : Failed!
 ...
---spr-dev-mysql-user_grants.sh 2013-10-04 17:25:44: Checking privileges of 'jose@%' on 'test_jose_hola.*' : OK!
---spr-dev-mysql-user_grants.sh 2013-10-04 17:25:44: Checking privileges of 'jose@%' on 'test_plat_hola.*' : OK!
---spr-dev-mysql-user_grants.sh 2013-10-04 17:25:44: Checking privileges of 'jose@%' on 'test_prueba_hoy.*' : OK!
---spr-dev-mysql-user_grants.sh 2013-10-04 17:25:45: Checking privileges of 'jose@%' on 'test_riguera_hola.*' : OK!
---spr-dev-mysql-user_grants.sh 2013-10-04 17:25:45: Checking privileges of 'jose@%' on 'test_test_db.*' : OK!
---spr-dev-mysql-user_grants.sh 2013-10-04 17:25:45: Checking privileges of 'jose@%' on 'test_ultimo1_hoy.*' : OK!
---spr-dev-mysql-user_grants.sh 2013-10-04 17:25:45: Checking privileges of 'jose@%' on 'test_ultimo2_hoy.*' : OK!
---spr-dev-mysql-user_grants.sh 2013-10-04 17:25:45: Checking privileges of 'jose@%' on 'test_ultimo3_hoy.*' : OK!
---spr-dev-mysql-user_grants.sh 2013-10-04 17:25:45: Checking privileges of 'jose@%' on 'test_ultimo5_hoy.*' : OK!
---spr-dev-mysql-user_grants.sh 2013-10-04 17:25:45: Checking privileges of 'jose@%' on 'test_ultimo9_hoy.*' : OK!
---spr-dev-mysql-user_grants.sh 2013-10-04 17:25:45: Checking privileges of 'jose@%' on 'test_ultimo_hoy.*' : OK!
---spr-dev-mysql-user_grants.sh 2013-10-04 17:25:45: counter=0
+--mysql-user_grants.sh 2013-10-04 17:25:44: Checking privileges of 'jose@%' on 'test_jose_hola.*' : OK!
+--mysql-user_grants.sh 2013-10-04 17:25:44: Checking privileges of 'jose@%' on 'test_plat_hola.*' : OK!
+--mysql-user_grants.sh 2013-10-04 17:25:44: Checking privileges of 'jose@%' on 'test_prueba_hoy.*' : OK!
+--mysql-user_grants.sh 2013-10-04 17:25:45: Checking privileges of 'jose@%' on 'test_riguera_hola.*' : OK!
+--mysql-user_grants.sh 2013-10-04 17:25:45: Checking privileges of 'jose@%' on 'test_test_db.*' : OK!
+--mysql-user_grants.sh 2013-10-04 17:25:45: Checking privileges of 'jose@%' on 'test_ultimo1_hoy.*' : OK!
+--mysql-user_grants.sh 2013-10-04 17:25:45: Checking privileges of 'jose@%' on 'test_ultimo2_hoy.*' : OK!
+--mysql-user_grants.sh 2013-10-04 17:25:45: Checking privileges of 'jose@%' on 'test_ultimo3_hoy.*' : OK!
+--mysql-user_grants.sh 2013-10-04 17:25:45: Checking privileges of 'jose@%' on 'test_ultimo5_hoy.*' : OK!
+--mysql-user_grants.sh 2013-10-04 17:25:45: Checking privileges of 'jose@%' on 'test_ultimo9_hoy.*' : OK!
+--mysql-user_grants.sh 2013-10-04 17:25:45: Checking privileges of 'jose@%' on 'test_ultimo_hoy.*' : OK!
+--mysql-user_grants.sh 2013-10-04 17:25:45: counter=0
 ```
 
 You have to define the grants in the file _mysql-grants.conf_. For example:
